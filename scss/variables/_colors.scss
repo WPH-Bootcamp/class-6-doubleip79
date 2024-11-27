@@ -75,7 +75,3 @@ $colors-map: (
     '950': #053321,
   ),
 );
-
-@each $type, $level in map.get($color-maps, 'type') {
-  @debug $level;
-}
